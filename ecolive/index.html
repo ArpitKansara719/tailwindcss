@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecolive Tailwind </title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header-1 -->
+    <div class="header-1">
+        <a href="" class="logo"><img src="Assets/logo.svg" alt=""></a>
+        <span>
+            <i class="fas fa-phone"></i> &nbsp;
+            1-800-234-5678
+        </span>
+        <form action="" class="search-box-container"> 
+            <input type="search" id="search-box" placeholder="Search Products....">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="right-nav">
+            <a href="" class="like">
+                <i href="" class="fas fa-heart"></i>
+                <span>7</span>
+            </a>
+            <a href="" class="cart">
+                <i href="" class="fas fa-shopping-cart"></i>
+                <span>19</span>
+            </a>
+        </div>
+
+    </div>
+<!-- header-2 -->
+    <div class="header-2 active sticky top-0 right-0n left-0 z-10">
+         <div id="menu-bar" class="fas fa-bars">
+
+         </div>
+        <nav class="navbar">
+            <a href="">HOME</a>
+            <a href="">CATEGORY</a>
+            <a href="">PRODUCT</a>
+            <a href="">DEAL</a>
+            <a href="">CONTACT</a>
+        </nav>
+        <div class="icons">
+            <a href="" class="fas fa-shopping-cart"></a>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-user-circle"></a>
+        </div>
+    </div>
+
+    <section class="home flex" id="home">
+        <div class="image w-full">
+            <img src="Assets/banner.png" alt="" class="w-full">
+        </div>
+   </section> 
+<!-- banner -->
+<section class="banner-container flex flex-wrap gap-6 w-[80%]">
+    <div class="banner h-96  overflow-hidden  relative">
+        <img src="Assets/l.avif" alt="" class="w-full  object-cover" >
+    
+    <div class="content  w-4/5 absolute top-24 origin-center" >
+        <h3 class="text-5xl">
+            Best Cuisine From the <br> sea of America
+        </h3>
+        <p class="text-4xl">Premium Seafood avialable everyday</p>
+    </div>
+</div>
+
+    <div class="banner  h-96 overflow-hidden relative ">
+        <img src="Assets/l1.avif" alt=""  class="w-full object-cover">
+   
+    <div class="content w-4/5 absolute top-24 origin-center">
+        <h3 class="text-5xl">
+            Best Cuisine From  the <br> sea of America
+        </h3>
+        <p class="text-4xl">Premium Seafood avialable everyday</p>
+    </div>
+</div>
+</section>
+<!-- product -->
+<section class="product w-[80%]" id="product">
+    <h1 class="heading text-left p-2.5 text-4xl text-green-900 m-5">Our Product</h1>
+    <div class="box-container flex flex-wrap gap-6">
+        <div class="box">
+            <span class="discount absolute top-4 left-4 text-base py-2.5 px-4">Out of stock</span>
+            <div class="icons absolute top-2">
+                <a href="" class="fas fa-heart block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-eye block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-share block h-12 w-12 hover:bg-green-400"></a>
+            </div>
+            <img src="Assets/p-1.png" alt="" class="h-80">
+            <h3>Allium</h3>
+            <h3>Incredible Plastic Bench</h3>
+            <h3>Unit: MI</h3> block
+            <div class="price text-3xl px-0 py-2">
+                $10.50
+            </div>
+        </div>
+
+        <div class="box">
+          
+            <div class="icons  absolute top-2">
+                <a href="" class="fas fa-heart block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-eye block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-share block h-12 w-12 hover:bg-green-400"></a>
+            </div>
+            <img src="Assets/p-3.png" alt="" class="h-80">
+            <h3 class="text-2xl">Allium</h3>
+            <h3 class="text-2xl">Incredible Plastic Bench</h3>
+            <h3 class="text-2xl">Unit: MI</h3>
+            <div class="price text-3xl px-0 py-2">
+                $10.50
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount absolute top-4 left-4 text-base py-2.5 px-4">-95%</span>
+            <div class="icons absolute top-2">
+                <a href="" class="fas fa-heart block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-eye block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-share block h-12 w-12 hover:bg-green-400"></a>
+            </div>
+            <img src="Assets/p-4.png" alt="" class="h-80">
+            <h3 class="text-2xl">Allium</h3>
+            <h3 class="text-2xl">Incredible Plastic Bench</h3>
+            <h3 class="text-2xl">Unit: MI</h3>
+            <div class="price text-3xl px-0 py-2">
+                $10.50
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons absolute top-2">
+                <a href="" class="fas fa-heart block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-eye block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-share block h-12 w-12 hover:bg-green-400"></a>
+            </div>
+            <img src="Assets/p-5.png" alt="" class="h-80">
+            <h3 class="text-2xl">Allium</h3>
+            <h3 class="text-2xl">Incredible Plastic Bench</h3>
+            <h3 class="text-2xl">Unit: MI</h3>
+            <div class="price text-3xl px-0 py-2">
+                $10.50
+            </div>
+        </div>
+    </div>
+</section>
+<!-- deal -->
+<section class="deal" id="deal">
+    <div class="content max-w-3xl 
+    m-auto">
+        <h3 class="text-2xl">ON ALL WEEKEND SALES</h3>
+        <h1 class="text-4xl">Get Up to 15% Off Vegetables</h1>
+        <h2 class="text-3xl">We Supply hight quality organic product</h2>
+        <a href="" class="block h-16 w-1/5 
+        bg-yellow-400 m-auto text-center text-stone-900">Home</a>
+    </div>
+</section>
+<!-- product 2 -->
+<section class="product w-[80%]" id="product">
+    <h1 class="heading text-left p-2.5 text-4xl text-green-900 m-5">Our Product</h1>
+    <div class="box-container flex flex-wrap gap-6">
+        <div class="box">
+            <span class="discount absolute top-4 left-4 text-base py-2.5 px-4">Out of stock</span>
+            <div class="icons absolute top-2">
+                <a href="" class="fas fa-heart block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-eye block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-share block h-12 w-12 hover:bg-green-400"></a>
+            </div>
+            <img src="Assets/p-1.png" alt="" class="h-80">
+            <h3>Allium</h3>
+            <h3>Incredible Plastic Bench</h3>
+            <h3>Unit: MI</h3> block
+            <div class="price text-3xl px-0 py-2">
+                $10.50
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons  absolute top-2">
+                <a href="" class="fas fa-heart block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-eye block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-share block h-12 w-12 hover:bg-green-400"></a>
+            </div>
+            <img src="Assets/p-3.png" alt="" class="h-80">
+            <h3 class="text-2xl">Allium</h3>
+            <h3 class="text-2xl">Incredible Plastic Bench</h3>
+            <h3 class="text-2xl">Unit: MI</h3>
+            <div class="price text-3xl px-0 py-2">
+                $10.50
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount absolute top-4 left-4 text-base py-2.5 px-4">-95%</span>
+            <div class="icons absolute top-2">
+                <a href="" class="fas fa-heart block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-eye block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-share block h-12 w-12 hover:bg-green-400"></a>
+            </div>
+            <img src="Assets/p-4.png" alt="" class="h-80">
+            <h3 class="text-2xl">Allium</h3>
+            <h3 class="text-2xl">Incredible Plastic Bench</h3>
+            <h3 class="text-2xl">Unit: MI</h3>
+            <div class="price text-3xl px-0 py-2">
+                $10.50
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons absolute top-2">
+                <a href="" class="fas fa-heart block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-eye block h-12 w-12 hover:bg-green-400"></a>
+                <a href="" class="fas fa-share block h-12 w-12 hover:bg-green-400"></a>
+            </div>
+            <img src="Assets/p-5.png" alt="" class="h-80">
+            <h3 class="text-2xl">Allium</h3>
+            <h3 class="text-2xl">Incredible Plastic Bench</h3>
+            <h3 class="text-2xl">Unit: MI</h3>
+            <div class="price text-3xl px-0 py-2">
+                $10.50
+            </div>
+        </div>
+    </div>
+</section>
+<!-- deal -->
+<section class="deal" id="deal">
+    <div class="content max-w-3xl 
+    m-auto">
+        <h3 class="text-2xl">ON ALL WEEKEND SALES</h3>
+        <h1 class="text-4xl">Get Up to 15% Off Vegetables</h1>
+        <h2 class="text-3xl">We Supply hight quality organic product</h2>
+        <a href="" class="block h-16 w-1/5 
+        bg-yellow-400 m-auto text-center text-stone-900">Home</a>
+    </div>
+</section>
+<!-- brand  -->
+<section class="partner"> 
+<div class="logo-container h-24 object-contain object-center  opacity-80">
+    <img src="Assets/brand/brand1.svg" alt="">
+    <img src="Assets/brand/brand2.svg" alt="">
+    <img src="Assets/brand/brand3.svg" alt="">
+    <img src="Assets/brand/brand4.svg" alt="">
+    <img src="Assets/brand/brand5.svg" alt="">
+    <img src="Assets/brand/brand6.svg" alt="">
+</div>
+</section>
+<!-- footer -->
+<footer class="px-5 py-12 bg-black">
+    <div class="footer-container m-auto flex flex-wrap justify-evenly items-start">
+        <div class="footer-links">
+            <strong class="text-base text-white font-semibold">Information</strong>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Check out</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <strong class="text-base text-white font-semibold">My Account</strong>
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Shopping cart</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <strong class="text-base text-white font-semibold">Categories</strong>
+            <ul>
+                <li><a href="#">Fruits & Vegetables</a></li>
+                <li><a href="#">Dairy Products</a></li>
+                <li><a href="#">Package Foods</a></li>
+                <li><a href="#">Beverages</a></li>
+                <li><a href="#">Health & wellness</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <strong class="text-base text-white font-semibold">Style Advisor</strong>
+            <ul>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Information</a></li>
+                <li><a href="#">Addresses</a></li>
+                <li><a href="#">discount</a></li>
+                <li><a href="#">Order Tracking</a></li>
+            </ul>
+        </div>
+        <div class="footer-logo">
+            <a href=""><img src="Assets/logo_white (1).svg" alt=""></a>
+            <p>abc@ecogmail.com</p>
+
+        </div>
+    </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
